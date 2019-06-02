@@ -15,7 +15,7 @@ var proxy = httpProxy.createProxyServer({});
 
 // app.listen(5000);
 
-var webDir = 'webui-01';
+var webDir = process.env.UI_FOLDER || 'webui-01';
 
 function responseFile(req, res) {
   var filePath = path.join(`${__dirname}/${webDir}${req.url}`);
