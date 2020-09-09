@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-proxy": "^1.17.0"
+    "http-proxy": "^1.18.1"
   }
 }
